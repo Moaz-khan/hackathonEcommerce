@@ -1,0 +1,14 @@
+Project Name:Trendify,,,,,,,
+,,,,,,,
+,,,,,,,
+Tester: Muhammad Maaz,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Test Case ID,Description,Test Steps,Expected Result,Actual Result,Status,Severity,Remarks
+TC-001,Product Listing Validation,Open product page >Verify products,Products should display correctly,Products displayed as expected, Passed, High,No issues found
+TC-002,API Error Handling,Disconnect API > Refresh page,Show error message with fallback UI,Error message displayed correctly, Passed, Medium,Handled gracefully
+TC-003,Cart Functionality Check,Add product > Verify cart contents,Cart should update with added product,Cart updated as expected, Passed,High,Works as expected
+TC-004,Mobile Responsiveness Test,Resize browser >Check layout,Layout should adapt to screen size,Layout adjusted properly, Passed,Medium,Test successful
+TC-005,Checkout Process Validation,Proceed to checkout > Enter details > Place order,Order should be placed successfully,Order placed successfully, Passed, High,No issues encountered
+TC-006,Payment Gateway Integration,Select payment method > Complete payment,Payment should be processed correctly,Payment processed successfully, Passed, High,Payment functionality stable
